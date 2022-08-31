@@ -1,6 +1,12 @@
 # android-fragment-navigation-webview
 This is an template android project with navigating through fragment pages and web-view in a frgmented page
 
+<P>
+Ref:<br />
+&emsp;https://developer.android.com/develop/ui/views/layout/webapps/webview#java<br />
+&emsp;https://developer.android.com/develop/ui/views/layout/webapps/load-local-content<br />
+</P>
+
 Configure API call to mongodb.cloud @ APIService.class.<br />
 You can add API-KEY from the app UI<br />
          &emsp;mongodb_URL = "<URL>"; // Find url<br />
