@@ -32,7 +32,7 @@ Bind JavaScript code to Android code via app interface<br />
   &emsp;Create interfaces between your app code (client-side Android code) and your JavaScript code.<br />
   &emsp;your JavaScript code can call a method in your Android code <br />
 CSS Spinner being shown when data is loaded<br />
-element innerText changers can not detected by onChange event. So PURE javascript implementation done to detect by when attribute change to mutations<br />
+&lt;p&gt; element innerText changers can not detected by onChange event. So PURE javascript implementation done to detect by when attribute change to mutations<br />
 Use SharedPreferences to save app data such as token in android storage which is cross applications (in XML format)<br />
 </p>
 <p>
