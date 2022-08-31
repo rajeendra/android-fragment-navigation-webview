@@ -1,0 +1,37 @@
+
+<!--
+    /home/user/../../android-fragment-navigation-webview/
+        app/src/main/assets/index.html
+-->
+
+<html>
+
+    <head>
+        <!-- Tip: Use relative URLs when referring to other in-app content to give
+                  your app code the flexibility to change the scheme or domain as
+                  necessary. -->
+        <link rel="stylesheet" href="/assets/stylesheet.css">
+        <link rel="stylesheet" href="/assets/stylesheet.css">
+    </head>
+
+    <body>
+        <div hidden id="loader" class="loader"></div>
+        <p>This file was loaded from in-app content</p>
+        <p>
+            <input type="button" value="Web->App call" onClick="showAndroidToast('Hello Android!')" />
+        </p>
+        <p><img src="/res/drawable/android_robot.png" alt="Android robot" width="100"></p>
+        <p>
+            <input type="button" value="Ajax (Web -> Web) call" onClick="ajaxCall()" />
+            <input type="button" value="Clear" onClick="clearResponse()" />
+            <input type="button" value="Web->App[JAVA-Curl]->Web call" onClick="mongoCloudCall('data')" />
+        </p>
+        <p id="ajaxResponse" onchange="hideSpinner()"></p>
+
+        <script type="text/javascript">
+        </script>
+        <script type="text/javascript" src="js/index.js "></script>
+    </body>
+
+</html>
+
